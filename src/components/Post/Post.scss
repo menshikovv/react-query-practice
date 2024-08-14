@@ -1,0 +1,21 @@
+.title {
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+        border-color: #646cff;
+    }
+}
+
+.create {
+    text-align: left;
+    color: rgb(101, 101, 227);
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}

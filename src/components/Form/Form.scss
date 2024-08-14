@@ -1,0 +1,36 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    text-align: left;
+  }
+  
+  form {
+    background-color: rgba(56, 56, 62, 0.87); 
+    padding: 50px;
+    border-radius: 40px;
+    > input {
+      width: 90%;
+      background-color: rgba(72, 85, 118, 0.55); 
+      display: block;
+      padding: 14px 12px;
+      font-size: 16px;
+      outline: none;
+      border: 1px solid transparent;
+      transition: border-color 0.3s;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: all 0.5s ease;
+      border-color: transparent;
+    }
+  
+    > input:hover {
+      border-color: #646cff;
+    }
+  
+  }
+  
